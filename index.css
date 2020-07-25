@@ -101,9 +101,6 @@ body {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
-#about a {
-    color:rgb(255, 50, 50);
-}
 #work {
     width:10vw;
     height:10vw;
