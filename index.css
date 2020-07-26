@@ -319,6 +319,21 @@ body {
 	color: #fff;
 	background: rgb(255, 50, 50);
 }
+.row {
+   display : flex;
+   flex-warp : wrap;
+   padding : 0 4px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 
 @media (max-width: 800px){ 
     #about {
