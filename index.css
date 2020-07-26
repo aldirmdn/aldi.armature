@@ -325,13 +325,13 @@ body {
    padding : 0 4px;
 }
 .column {
+  margin-left: 80px;
+  margin-bottom: 10px;
   flex: 25%;
   max-width: 100%;
   padding: 0 4px;
 }
 .column img {
-  margin-left: 80px;
-  margin-bottom: 10px;
   vertical-align: middle;
   width: 100%;
 }
