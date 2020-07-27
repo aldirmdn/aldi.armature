@@ -1,0 +1,5 @@
+.img-wrapper::after {
+    font-size: 12px;
+    content: 'Click Image To View Full Size';
+    display: block;
+}
