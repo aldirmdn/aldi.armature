@@ -1,3 +1,3 @@
 $('img').each(function(i,e) {
-  $(e).wrap('<div class="row"></div>')
+  $(e).wrap('<div class="column"></div>')
 })
