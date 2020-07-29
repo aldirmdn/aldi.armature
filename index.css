@@ -364,7 +364,9 @@ body {
 }
 #lb-img img {
   width: 100%;
+  max-width: 1200px;
   height: auto;
+  margin: 0 auto;
 }
 html, body {
   padding: 0;
