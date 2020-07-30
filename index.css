@@ -323,15 +323,12 @@ body {
    display : flex;
    flex-warp : wrap;
    padding : 0 4px;
-   position : relative;
-   width : 100%
 }
 .column {
   margin-left: 80px;
   margin-bottom: 10px;
   flex: 25%;
   max-width: 100%;
-  padding: 0 4px;
 }
 .column img {
   vertical-align: middle;
@@ -343,7 +340,7 @@ body {
   height: auto;
 }
 .overlay {
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -354,7 +351,7 @@ body {
   transition: .5s ease;
   background-color: #008CBA;
 }
-.container:hover .overlay {
+.row:hover .overlay {
   opacity: 1;
 }
 .text {
