@@ -351,7 +351,7 @@ body {
   transition: .5s ease;
   background-color: #008CBA;
 }
-.column:hover .overlay {
+.image: hover .overlay {
   opacity: 1;
 }
 .text {
